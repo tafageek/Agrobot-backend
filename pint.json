@@ -1,3 +1,10 @@
+JSON
 {
-    "preset": "laravel"
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "22177XXXXXXX",
+  "type": "text",
+  "text": {
+    "body": "Voici les offres pour *riz et bissap*..."
+  }
 }

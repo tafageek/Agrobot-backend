@@ -46,7 +46,7 @@ class ProductSeeder extends Seeder
 
         foreach ($products as $product) {
             Product::create($product);
-        $this->call(ProductSeeder::class);
+            $this->call(ProductSeeder::class);
         }
     }
 }
